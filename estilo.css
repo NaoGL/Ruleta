@@ -1,0 +1,63 @@
+body{
+	background-image: url(img/fmor.jpg);
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	font-family: Avocado Creamy;
+	font-size: 60px;
+	color: #52057b;
+}
+th{
+	font-size: 20px;
+}
+#caja1 img, #caja2 img, #caja3 img{
+	height: auto;
+	width: 410px;
+	margin: 40px 20px;
+}
+label{
+	font-size:40px;
+}
+#encabezado p{
+	font-size: 30px;
+	text-align: center;
+	margin: -5px;
+}
+strong{
+	color: purple;
+}
+#boton{
+	font-size: 40px;
+	background-color: #bc6ff1;
+	padding: 10px;
+	font-family: Please write me a song;
+	margin: 10px;
+}
+#nombre{
+	margin: 30px;
+	font-size: 40px;
+}
+#cetis{
+	height: 180px;
+	width: auto;
+	position: absolute;
+	left: 30px;
+	top: 25px;
+}
+#nao{
+	height: 180px;
+	width: auto;
+	position: absolute;
+	right: 30px;
+	top: 25px;
+}
+#cuadro{
+	background-color: #c3aed6;
+	width: 70%;
+	padding: 30px;
+	border-radius: 5em;
+}
+#resul{
+	color: purple;
+}
