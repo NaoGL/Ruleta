@@ -1,0 +1,45 @@
+# Ruleta<!DOCTYPE html>
+<html>
+<head>
+	<title> Ruleta </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<script type="text/javascript" src="funrul.js"></script>
+	<div id="encabezado">
+		<h1>T20 Ruleta Programadores Pbc Sm11</h1>
+		<img src="https://archive.org/services/img/dgeti_cetis_no_62" alt="cetis62" id="cetis">
+		<img src="img/nao.jpg" id="nao">
+		<p><strong>Nombre:</strong> Gallardo Licea Evelyn Naomi<br><strong>Grado y Grupo: </strong>4"F"<br><strong>Especialidad: </strong>Programación<br><strong>Materia: </strong>DESAPEJEC</p>
+	</div>
+	<div id="juego">
+		<form name="formulario">
+			<center><br><table>
+				<tr>
+					<th colspan="3"> ¡Bienvenido al juego de la ruleta! Para iniciarlo debes presionar el botón que está por debajo, ¡Mucha suerte! Puedes observar tu resultado en el cuadro y no olvides divertirte </th>
+				</tr>
+				<tr> <!-- Imagenes de ruleta-->
+					<td>
+						<div name="caja1" id="caja1"> <img src="img/inicial.png"></div>
+					</td>
+					<td>
+						<div name="caja2" id="caja2"> <img src="img/inicial.png"></div>
+					</td>
+					<td>
+						<div nama="caja3" id="caja3"> <img src="img/inicial.png"></div>
+					</td>
+				</tr>
+			</table></center>
+		<center><div id="cuadro">
+		<p><label for="nombre">¡Hola! ¿Cuál es tu nombre? </label>
+			<input type="text" name="nombre" id="nombre" required/></p>
+		<input type="button" id="boton" value="¡Presiona aquí!" onclick="tercia();" onmouseover="this.style.backgroundColor='#52057b';" 
+                onmouseout="this.style.backgroundColor='#892cdc';"/>
+		<p><label name="sal" id="sal">Tu resultado es: </label>
+			<label name="resul" id="resul"> ... </label></p>
+		</center></div>
+		<br>
+	</div>
+</body>
+</html>
